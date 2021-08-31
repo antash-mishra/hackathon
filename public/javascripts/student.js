@@ -15,7 +15,7 @@ function view() {
                 <div class="box">
                   <p class="title is-underlined">${data[i].NAME}</p>
                   <br>
-                  <p><a onclick='dashboard(this)' id="${data[i].CODE}" class="subtitle">${data[i].SUBJECT}</a></p>
+                  <p><a class="subtitle is-underlined" onclick='dashboard(this)' id="${data[i].CODE}" class="subtitle">${data[i].SUBJECT}</a></p
                 </div>
                 </div>`;
         }
